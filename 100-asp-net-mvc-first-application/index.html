@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Урок 0. Курс веб-программирования на ASP.NET MVC</title>
+
+		<meta name="description" content="Демонстрационный вводный урок по веб-программированию на фреймворке ASP.NET MVC">
+		<meta name="author" content="Артур Терегулов">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../RevealJS/css/reveal.css">
+		<link rel="stylesheet" href="../RevealJS/css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../RevealJS/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="../RevealJS/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../RevealJS/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+	
+    
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+				<section>
+					
+					<p>Пробный урок</p>
+					<p>Введение в веб-программирование</p>
+					<p>Фреймворк ASP.NET MVC</p>
+				</section>
+				<section>
+					<table>
+						<col width="700px">
+						<col width="500px">
+
+						<tr>
+							<td>
+								<img src="Images/asp-start/create-project.png" width="700px" height="400px">
+							</td>
+							<td>
+				   				<ul>
+									<li> Запускаем студию, создаем новый проект с помощью пункта меню File -> New Project </li>
+									<li> На вкладке Visual C# -> Web выбираем проект ASP.NET MVC 4 Web Application. </li>
+									<li> В строке названия проекта Name вводим «Calc» и нажимаем «ОК».</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+
+				</section>
+
+				<section>
+					<table>
+						<col width="700px">
+						<col width="500px">
+
+						<tr>
+							<td>
+								<img src="Images/asp-start/select-template.png" width="700px" height="400px">
+							</td>
+							<td>
+				   				<ul>
+									<li> Выбираем тип шаблона, Нам нужен Internet Application <br /><br /><br /><br /><br /><br /><br /><br /></li>
+
+								</ul>
+
+							</td>
+						</tr>
+					</table>
+
+				</section>
+
+				<section>
+					<table>
+						<col width="700px">
+						<col width="500px">
+
+						<tr>
+							<td>
+								<img src="Images/asp-start/select-template2.png" width="700px" height="500px">
+							</td>
+							<td>
+				   				<ul>
+									<li> Теперь, по нажатию клавиши F5 проект можно запустить, и мы должны увидеть в браузере картинку как на слайде
+									<br /><br /><br /> <br /><br /><br /></li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+
+				</section>
+
+
+
+
+				<section>
+					
+				<section>
+					
+					<p>Страница 2</p>
+				</section>
+				<section>
+					
+					<p>Стрничка внизу</p>
+				</section>
+				</section>
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="../RevealJS/lib/js/head.min.js"></script>
+		<script src="../RevealJS/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../RevealJS/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../RevealJS/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../RevealJS/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../RevealJS/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../RevealJS/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../RevealJS/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+		
+
+	</body>
+</html>
